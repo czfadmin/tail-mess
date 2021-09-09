@@ -110,7 +110,7 @@ export default defineComponent({
             type: Object as PropType<IMessageOrigin>,
             default: {
                 vertical: "top",
-                horizontal: "right",
+                horizontal: "center",
             },
         },
         dangerouslyUseHTMLString: { type: Boolean, default: false },
@@ -132,7 +132,7 @@ export default defineComponent({
         },
         duration: {
             type: Number,
-            default: 3000000,
+            default: 3000,
         },
         showIcon: {
             type: Boolean,
