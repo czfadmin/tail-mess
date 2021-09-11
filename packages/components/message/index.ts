@@ -1,5 +1,5 @@
-import { App } from "vue";
-import { Plugin } from "vue";
+import type { App } from "vue";
+import type { Plugin } from "vue";
 import Message from "./src/message";
 import { IMessageConfig } from "./src/types";
 export type SFCWithinstall<T> = T & Plugin;

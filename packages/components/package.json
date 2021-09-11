@@ -1,0 +1,24 @@
+{
+    "name": "@tail-ui/components",
+    "version": "0.0.1",
+    "description": "tail-ui components",
+    "scripts": {},
+    "keywords": [
+        "tailwind",
+        "css"
+    ],
+    "dependencies": {
+        "@tail-ui/utils": "^0.0.1",
+        "@icon-park/vue-next": "^1.3.5"
+    },
+    "peerDependencies": {
+        "vue": "^3.2.11"
+    },
+    "main": "index.js",
+    "module": "index.js",
+    "types": "index.d.ts",
+    "unpkg": "index.js",
+    "sideEffects": false,
+    "author": "abchen",
+    "license": "ISC"
+}

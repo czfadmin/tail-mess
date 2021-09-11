@@ -1,0 +1,14 @@
+{
+    "name": "@tail-ui/utils",
+    "version": "0.0.1",
+    "description": "@tail-ui utils",
+    "scripts": {
+        "clean": "rm -rf lib es"
+    },
+    "peerDependencies": {
+        "vue": "^3.2.11"
+    },
+    "keywords": [],
+    "author": "abchen",
+    "license": "MIT"
+}

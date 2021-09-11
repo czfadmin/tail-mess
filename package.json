@@ -1,16 +1,47 @@
 {
     "name": "tail-mess",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "",
-    "scripts": {},
+    "scripts": {
+        "build:comps": "rimraf dist/components && esno build/components.ts",
+        "format": "prettier --write ."
+    },
+    "workspaces": [
+        "packages/*"
+    ],
     "keywords": [],
     "author": "abchen",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
+        "@babel/preset-typescript": "^7.15.0",
+        "@babel/types": "^7.15.4",
         "@icon-park/vue-next": "^1.3.5",
+        "@rollup/plugin-node-resolve": "^13.0.4",
+        "@types/node": "^16.9.0",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "@vue/babel-plugin-jsx": "^1.0.7",
+        "@vue/compiler-sfc": "^3.2.11",
+        "@vue/component-compiler-utils": "^3.2.2",
         "autoprefixer": "^10.3.4",
+        "chalk": "^4.1.2",
+        "esbuild": "^0.12.26",
+        "esno": "^0.9.1",
+        "klaw-sync": "^6.0.0",
+        "lerna": "^4.0.0",
         "postcss": "^8.3.6",
+        "rimraf": "^3.0.2",
+        "rollup": "^2.56.3",
+        "rollup-plugin-css-only": "^3.1.0",
+        "rollup-plugin-esbuild": "^4.5.0",
+        "rollup-plugin-filesize": "^9.1.1",
+        "rollup-plugin-typescript2": "^0.30.0",
+        "rollup-plugin-vue": "^6.0.0",
         "tailwindcss": "^2.2.14",
-        "vue": "^3.2.11"
+        "ts-morph": "^12.0.0",
+        "ts-node": "^10.2.1",
+        "typescript": "^4.4.2",
+        "vue": "^3.2.11",
+        "vue-tsc": "^0.3.0"
     }
 }
